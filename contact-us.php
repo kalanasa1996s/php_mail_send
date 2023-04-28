@@ -7,7 +7,7 @@
             $subject =$_POST['subject'];
             $message =$_POST['message'];
 
-            $to = 'kalanasa1996@gmail.com';
+            $to = '';
             $mail_subject = 'Message From Website';
             $email_body ="Message From Contact Us Page Of The Website: <br>";
             $email_body .="<b>From: </b> {$fullname} <br>";
